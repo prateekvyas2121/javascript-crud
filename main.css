@@ -1,0 +1,17 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.heading{
+	color: #fff;
+	background: #337AB7;
+	text-transform: uppercase;
+	padding: 20px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+}
+.btn , form-control{
+	width: 100%;
+	border-radius: 0px;
+}

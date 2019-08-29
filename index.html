@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+<body>
+	<div class="container" >
+		<h2 class="heading" >javascript crud app</h2>
+	</div>
+	<div class="container" >
+		<h2>ADD USER</h2>
+		<div class="adduser" >
+			<div class="row" >
+				<div class="col-md-10" >
+					<input type="text" name="" class="form-control" id="data" >
+				</div>
+				<div class="col-md-2" >
+					<button type="button" class="btn btn-primary" id="addUser" onclick="adduser();" >Add User</button>
+				</div>
+			</div>
+			<div class="user" id="userList">
+				<div class="row" style="margin-top: 20px;" >
+					<h2 class="container">Users List</h2>
+						<div class="col-md-6" >
+							<input type="text" name="" class="form-control">
+						</div>
+						<div class="col-md-2" >
+							<button type="button" class="btn btn-success" >Edit</button>	
+						</div>
+						<div class="col-md-2" >
+							<button type="button" class="btn btn-success" >Update</button>	
+						</div>
+						<div class="col-md-2" >
+							<button type="button" class="btn btn-danger" >Delete</button>	
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="main.js" ></script>
+</body>
+</html>
